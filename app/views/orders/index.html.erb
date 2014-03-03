@@ -1,0 +1,21 @@
+所有订单 <%= link_to '新建', new_order_path %>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @orders.each do |order| %>
+      <tr>
+        <td><%= "#{order.user.account rescue order.user_id} #{order.type_str} #{order.yuyue_at_str}"%></td>
+        <td><%= link_to '编辑', edit_order_path(order) %></td>
+        <td><%= link_to '删除', order, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

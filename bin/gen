@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby.exe
+APP_PATH = File.expand_path('../../config/application',  __FILE__)
+require_relative '../config/boot'
+require APP_PATH
+
+Jkyy::Application.initialize!
+
+user = User.first
+puts user.account
+user.init
+user.login
+user.info
+user.list
+
+info = user.user_info
+puts info.name

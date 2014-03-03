@@ -1,0 +1,22 @@
+所有用户 <%= link_to '新建', new_user_path %>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <td class="account" data-id="<%= user.id %>"><a href="javascript:void(0)"><%= user.account %></a></td>
+        <td><%= link_to '编辑', edit_user_path(user) %></td>
+        <td><%= link_to '删除', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to '新建订单', new_order_path(:uid=>user.id)%></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

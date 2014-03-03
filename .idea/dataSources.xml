@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2346016531">
+    <data-source source="LOCAL" name="SQLite - development.sqlite3" uuid="b0b4c44f-dc3a-4fa4-aace-9385a9f51046">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <default-dialect>sqlite</default-dialect>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails jkyy: development" uuid="6d90fae9-b7a3-4f19-a3b5-463b4f20a28f">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\GitWorkplace\jkyy\db\development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails jkyy: test" uuid="9f174f35-7f1c-41fb-9861-af698ef6a48a">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\GitWorkplace\jkyy\db\test.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

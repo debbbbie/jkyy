@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jkyy</title>
+  <%= stylesheet_link_tag    "application"%>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<h1>
+     驾照预约 | <a href="/users">Users</a> |
+  <a href="/orders">Orders</a>
+</h1>
+<hr/>
+<%= yield %>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<%= form_for(@order) do |f| %>
+  <% if @order.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@order.errors.count, "error") %> prohibited this order from being saved:</h2>
+
+      <ul>
+      <% @order.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+    User_id:
+    <%= f.text_field :user_id, value: params[:uid] %>
+    <br/>
+  Type:
+    <%= f.radio_button :yuyue_type, '1' %><%= f.label :yuyue_type_1, '科目1' %>
+    <%= f.radio_button :yuyue_type, '2' %><%= f.label :yuyue_type_2, '科目2' %>
+    <%= f.radio_button :yuyue_type, '3' %><%= f.label :yuyue_type_3, '科目3' %>
+    <!--<%= f.radio_button :yuyue_type, '4' %><%= f.label :yuyue_type_4, '科目4' %>-->
+<br/>
+  Yuyue_at:
+    <%= f.radio_button :yuyue_at, '1' %><%= f.label :yuyue_at_1, '星期1' %>
+    <%= f.radio_button :yuyue_at, '2' %><%= f.label :yuyue_at_2, '星期2' %>
+    <%= f.radio_button :yuyue_at, '3' %><%= f.label :yuyue_at_3, '星期3' %>
+    <%= f.radio_button :yuyue_at, '4' %><%= f.label :yuyue_at_4, '星期4' %>
+    <%= f.radio_button :yuyue_at, '5' %><%= f.label :yuyue_at_5, '星期5' %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
