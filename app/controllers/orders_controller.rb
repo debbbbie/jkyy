@@ -7,6 +7,10 @@ class OrdersController < ApplicationController
     @orders = Order.all
   end
 
+  def yuyue
+    @orders = Order.all.where("yuyue_at=?", Time.now.wday)
+  end
+
   # GET /orders/1
   # GET /orders/1.json
   def show
@@ -41,6 +45,7 @@ class OrdersController < ApplicationController
   # PATCH/PUT /orders/1
   # PATCH/PUT /orders/1.json
   def update
+    params.permit!
     respond_to do |format|
       if @order.update(order_params)
         format.html { redirect_to @order, notice: 'Order was successfully updated.' }

@@ -7342,3 +7342,3156 @@ Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 22:38:22 +0
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 22:38:22 +0800
+
+
+Started GET "/users" for 127.0.0.1 at 2014-03-03 22:49:19 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 1255ms (Views: 1216.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 22:49:20 +0800
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-03-03 22:49:20 +0800
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:21 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 22:49:22 +0800
+
+
+Started GET "/users/userinfo/5" for 127.0.0.1 at 2014-03-03 22:49:24 +0800
+Processing by UsersController#userinfo as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1[0m
+  [1m[35mUserInfo Load (4.0ms)[0m  SELECT "user_infos".* FROM "user_infos" WHERE "user_infos"."user_id" = ? ORDER BY "user_infos"."id" ASC LIMIT 1  [["user_id", 5]]
+  Rendered users/userinfo.erb (0.0ms)
+Completed 200 OK in 69ms (Views: 8.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/users/userinfo/5" for 127.0.0.1 at 2014-03-03 22:49:26 +0800
+Processing by UsersController#userinfo as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1[0m
+  [1m[35mUserInfo Load (0.0ms)[0m  SELECT "user_infos".* FROM "user_infos" WHERE "user_infos"."user_id" = ? ORDER BY "user_infos"."id" ASC LIMIT 1  [["user_id", 5]]
+  Rendered users/userinfo.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 14.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/userinfo/5" for 127.0.0.1 at 2014-03-03 22:49:30 +0800
+Processing by UsersController#userinfo as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1[0m
+  [1m[35mUserInfo Load (1.0ms)[0m  SELECT "user_infos".* FROM "user_infos" WHERE "user_infos"."user_id" = ? ORDER BY "user_infos"."id" ASC LIMIT 1  [["user_id", 5]]
+  Rendered users/userinfo.erb (0.0ms)
+Completed 200 OK in 23ms (Views: 19.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users/userinfo/5" for 127.0.0.1 at 2014-03-03 23:08:02 +0800
+Processing by UsersController#userinfo as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1[0m
+  [1m[35mUserInfo Load (1.0ms)[0m  SELECT "user_infos".* FROM "user_infos" WHERE "user_infos"."user_id" = ? ORDER BY "user_infos"."id" ASC LIMIT 1  [["user_id", 5]]
+  Rendered users/userinfo.erb (0.0ms)
+Completed 200 OK in 26ms (Views: 18.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:11:39 +0800
+Processing by OrdersController#yuyue as HTML
+DEPRECATION WARNING: Passing options to #find is deprecated. Please build a scope and then call #find on it. (called from C:in `find':)
+Completed 404 Not Found in 7ms
+
+ActiveRecord::RecordNotFound (Couldn't find Order without an ID):
+  app/controllers/orders_controller.rb:11:in `yuyue'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:11:59 +0800
+Processing by OrdersController#yuyue as HTML
+DEPRECATION WARNING: Passing options to #find is deprecated. Please build a scope and then call #find on it. (called from C:in `find':)
+Completed 404 Not Found in 4ms
+
+ActiveRecord::RecordNotFound (Couldn't find Order without an ID):
+  app/controllers/orders_controller.rb:11:in `yuyue'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:12:10 +0800
+Processing by OrdersController#yuyue as HTML
+DEPRECATION WARNING: Calling #find(:all) is deprecated. Please call #all directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from C:in `find':)
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from C:in `find':)
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE (yuyue_at=1)[0m
+  Rendered orders/yuyue.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 44ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:10 +0800
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:10 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:10 +0800
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:10 +0800
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:11 +0800
+
+
+Started GET "/orders" for 127.0.0.1 at 2014-03-03 23:12:16 +0800
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered orders/index.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 57ms (Views: 54.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:17 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:18 +0800
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:18 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:18 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:18 +0800
+
+
+Started DELETE "/orders/1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YOv8waWb805m4kTiZsd10Fq7pw1Vql7n5VNDtL7zbrI=", "id"=>"1"}
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "orders" WHERE "orders"."id" = ?  [["id", 1]]
+  [1m[36m (88.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 94ms (ActiveRecord: 90.4ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:21 +0800
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:22 +0800
+
+
+Started GET "/users" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:23 +0800
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:24 +0800
+
+
+Started GET "/orders/new?uid=5" for 127.0.0.1 at 2014-03-03 23:12:25 +0800
+Processing by OrdersController#new as HTML
+  Parameters: {"uid"=>"5"}
+  Rendered orders/_form.html.erb (48.0ms)
+  Rendered orders/new.html.erb within layouts/application (55.0ms)
+Completed 200 OK in 91ms (Views: 90.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:26 +0800
+
+
+Started POST "/orders" for 127.0.0.1 at 2014-03-03 23:12:29 +0800
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOv8waWb805m4kTiZsd10Fq7pw1Vql7n5VNDtL7zbrI=", "order"=>{"user_id"=>"5", "yuyue_type"=>"2", "yuyue_at"=>"2"}, "commit"=>"Create Order"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "orders" ("created_at", "updated_at", "user_id", "yuyue_at", "yuyue_type") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 03 Mar 2014 15:12:29 UTC +00:00], ["updated_at", Mon, 03 Mar 2014 15:12:29 UTC +00:00], ["user_id", 5], ["yuyue_at", "2"], ["yuyue_type", 2]]
+  [1m[35m (176.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/orders/2
+Completed 302 Found in 186ms (ActiveRecord: 181.1ms)
+
+
+Started GET "/orders/2" for 127.0.0.1 at 2014-03-03 23:12:29 +0800
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered orders/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:29 +0800
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:29 +0800
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:29 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:29 +0800
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:30 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:12:32 +0800
+Processing by OrdersController#yuyue as HTML
+DEPRECATION WARNING: Calling #find(:all) is deprecated. Please call #all directly instead. You have also used finder options. These are also deprecated. Please build a scope instead of using finder options. (called from C:in `find':)
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from C:in `find':)
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at=1)
+  Rendered orders/yuyue.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:33 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:34 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:34 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:34 +0800
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:34 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:34 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:34 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+Processing by OrdersController#yuyue as HTML
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from yuyue at C:/GitWorkplace/jkyy/app/controllers/orders_controller.rb:11)
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE (yuyue_at=1)[0m
+  Rendered orders/yuyue.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 39ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:47 +0800
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:12:48 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:13:02 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at=1)
+  Rendered orders/yuyue.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 40ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:02 +0800
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:02 +0800
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:03 +0800
+
+
+Started GET "/orders" for 127.0.0.1 at 2014-03-03 23:13:13 +0800
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered orders/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 60ms (Views: 57.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:13 +0800
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:14 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE (yuyue_at=1)[0m
+  Rendered orders/yuyue.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 39ms (Views: 34.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:43 +0800
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:13:44 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:14:24 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at=1)
+  Rendered orders/yuyue.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 149ms (Views: 148.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:14:25 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:14:25 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:14:25 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:14:25 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:14:25 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:14:43 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE (yuyue_at='1')[0m
+  Rendered orders/yuyue.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 12ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:14:43 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:14:43 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:14:43 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:14:43 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:14:43 +0800
+
+
+Started GET "/orders" for 127.0.0.1 at 2014-03-03 23:14:45 +0800
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered orders/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:14:45 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:14:45 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:14:45 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:14:45 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:14:45 +0800
+
+
+Started GET "/orders/2/edit" for 127.0.0.1 at 2014-03-03 23:14:46 +0800
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered orders/_form.html.erb (3.0ms)
+  Rendered orders/edit.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:14:46 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:14:46 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:14:46 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:14:47 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:14:47 +0800
+
+
+Started PATCH "/orders/2" for 127.0.0.1 at 2014-03-03 23:14:49 +0800
+Processing by OrdersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOv8waWb805m4kTiZsd10Fq7pw1Vql7n5VNDtL7zbrI=", "order"=>{"user_id"=>"", "yuyue_type"=>"2", "yuyue_at"=>"1"}, "commit"=>"Update Order", "id"=>"2"}
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 2ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/orders_controller.rb:49:in `block in update'
+  app/controllers/orders_controller.rb:48:in `update'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.0ms)
+
+
+Started PATCH "/orders/2" for 127.0.0.1 at 2014-03-03 23:15:05 +0800
+Processing by OrdersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOv8waWb805m4kTiZsd10Fq7pw1Vql7n5VNDtL7zbrI=", "order"=>{"user_id"=>"", "yuyue_type"=>"2", "yuyue_at"=>"1"}, "commit"=>"Update Order", "id"=>"2"}
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  UPDATE "orders" SET "user_id" = ?, "yuyue_at" = ?, "updated_at" = ? WHERE "orders"."id" = 2  [["user_id", nil], ["yuyue_at", "1"], ["updated_at", Mon, 03 Mar 2014 15:15:05 UTC +00:00]]
+SQLite3::ConstraintException: orders.user_id may not be NULL: UPDATE "orders" SET "user_id" = ?, "yuyue_at" = ?, "updated_at" = ? WHERE "orders"."id" = 2
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 21ms
+
+ActiveRecord::StatementInvalid (SQLite3::ConstraintException: orders.user_id may not be NULL: UPDATE "orders" SET "user_id" = ?, "yuyue_at" = ?, "updated_at" = ? WHERE "orders"."id" = 2):
+  app/controllers/orders_controller.rb:50:in `block in update'
+  app/controllers/orders_controller.rb:49:in `update'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.0ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2014-03-03 23:15:20 +0800
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered orders/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:15:20 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:20 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:20 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:20 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:20 +0800
+
+
+Started DELETE "/orders/2" for 127.0.0.1 at 2014-03-03 23:15:22 +0800
+Processing by OrdersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YOv8waWb805m4kTiZsd10Fq7pw1Vql7n5VNDtL7zbrI=", "id"=>"2"}
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "orders" WHERE "orders"."id" = ?  [["id", 2]]
+  [1m[36m (129.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 135ms (ActiveRecord: 130.1ms)
+
+
+Started GET "/orders" for 127.0.0.1 at 2014-03-03 23:15:22 +0800
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:15:22 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:22 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:22 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:22 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:22 +0800
+
+
+Started GET "/users" for 127.0.0.1 at 2014-03-03 23:15:23 +0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:15:23 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:23 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:23 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:23 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:23 +0800
+
+
+Started GET "/orders/new?uid=5" for 127.0.0.1 at 2014-03-03 23:15:25 +0800
+Processing by OrdersController#new as HTML
+  Parameters: {"uid"=>"5"}
+  Rendered orders/_form.html.erb (3.0ms)
+  Rendered orders/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:25 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:15:25 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:25 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:25 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:25 +0800
+
+
+Started POST "/orders" for 127.0.0.1 at 2014-03-03 23:15:28 +0800
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YOv8waWb805m4kTiZsd10Fq7pw1Vql7n5VNDtL7zbrI=", "order"=>{"user_id"=>"5", "yuyue_type"=>"2", "yuyue_at"=>"1"}, "commit"=>"Create Order"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "orders" ("created_at", "updated_at", "user_id", "yuyue_at", "yuyue_type") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Mon, 03 Mar 2014 15:15:28 UTC +00:00], ["updated_at", Mon, 03 Mar 2014 15:15:28 UTC +00:00], ["user_id", 5], ["yuyue_at", "1"], ["yuyue_type", 2]]
+  [1m[35m (179.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/orders/3
+Completed 302 Found in 184ms (ActiveRecord: 181.3ms)
+
+
+Started GET "/orders/3" for 127.0.0.1 at 2014-03-03 23:15:28 +0800
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered orders/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:15:28 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:28 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:28 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:28 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:28 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:15:32 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at='1')
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:15:33 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:33 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:33 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:33 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:15:33 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:16:00 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at=1)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 36ms (Views: 31.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:16:00 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:16:00 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:16:00 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:16:00 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:16:00 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:16:55 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at=1)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:16:55 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:16:55 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:16:55 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:16:55 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:16:55 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:17:42 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at=1)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:17:43 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:17:43 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:17:43 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:17:43 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:17:43 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:18:04 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at=1)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:18:05 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:18:05 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:18:05 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:18:05 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:18:05 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:18:35 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at=1)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:18:35 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:18:35 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:18:35 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:18:35 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:18:35 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:19:26 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at=1)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:19:27 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:19:27 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:19:27 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:19:27 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:19:27 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:20:09 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at=1)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:20:09 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:20:09 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:20:09 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:20:09 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:20:09 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:20:22 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at=1)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUserInfo Load (0.0ms)[0m  SELECT "user_infos".* FROM "user_infos" WHERE "user_infos"."user_id" = ? ORDER BY "user_infos"."id" ASC LIMIT 1  [["user_id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:20:23 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:20:23 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:20:23 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:20:23 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:20:23 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:20:38 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE (yuyue_at=1)[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mUserInfo Load (0.0ms)[0m  [1mSELECT "user_infos".* FROM "user_infos" WHERE "user_infos"."user_id" = ? ORDER BY "user_infos"."id" ASC LIMIT 1[0m  [["user_id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:20:38 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:20:38 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:20:38 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:20:38 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:20:38 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:21:23 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at=1)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUserInfo Load (1.0ms)[0m  SELECT "user_infos".* FROM "user_infos" WHERE "user_infos"."user_id" = ? ORDER BY "user_infos"."id" ASC LIMIT 1  [["user_id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 16ms (Views: 12.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:21:23 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:21:23 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:21:23 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:21:23 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:21:23 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:21:36 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE (yuyue_at=1)[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mUserInfo Load (0.0ms)[0m  [1mSELECT "user_infos".* FROM "user_infos" WHERE "user_infos"."user_id" = ? ORDER BY "user_infos"."id" ASC LIMIT 1[0m  [["user_id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:21:36 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:21:36 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:21:36 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:21:36 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:21:36 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:22:27 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at=1)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUserInfo Load (1.0ms)[0m  SELECT "user_infos".* FROM "user_infos" WHERE "user_infos"."user_id" = ? ORDER BY "user_infos"."id" ASC LIMIT 1  [["user_id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 20ms (Views: 16.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:22:27 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:22:27 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:22:27 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:22:27 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:22:27 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:23:55 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE (yuyue_at=1)[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mUserInfo Load (0.0ms)[0m  [1mSELECT "user_infos".* FROM "user_infos" WHERE "user_infos"."user_id" = ? ORDER BY "user_infos"."id" ASC LIMIT 1[0m  [["user_id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 22ms (Views: 19.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:23:55 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:23:55 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:23:55 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:23:55 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:23:55 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:26:24 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at=1)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUserInfo Load (0.0ms)[0m  SELECT "user_infos".* FROM "user_infos" WHERE "user_infos"."user_id" = ? ORDER BY "user_infos"."id" ASC LIMIT 1  [["user_id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:26:24 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:26:24 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:26:24 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:26:24 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:26:24 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:26:26 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE (yuyue_at=1)[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mUserInfo Load (1.0ms)[0m  [1mSELECT "user_infos".* FROM "user_infos" WHERE "user_infos"."user_id" = ? ORDER BY "user_infos"."id" ASC LIMIT 1[0m  [["user_id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:26:26 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:26:26 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:26:26 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:26:26 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:26:26 +0800
+
+
+Started GET "/orders" for 127.0.0.1 at 2014-03-03 23:26:27 +0800
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered orders/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:26:27 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:26:27 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:26:27 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:26:27 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:26:27 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:26:28 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at=1)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUserInfo Load (0.0ms)[0m  SELECT "user_infos".* FROM "user_infos" WHERE "user_infos"."user_id" = ? ORDER BY "user_infos"."id" ASC LIMIT 1  [["user_id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:26:28 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:26:28 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:26:28 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:26:28 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:26:28 +0800
+
+
+Started GET "/users" for 127.0.0.1 at 2014-03-03 23:30:34 +0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 44ms (Views: 35.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:30:35 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:30:35 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:30:35 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:30:35 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:30:35 +0800
+
+
+Started GET "/users" for 127.0.0.1 at 2014-03-03 23:30:52 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:30:53 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:30:53 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:30:53 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:30:53 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:30:53 +0800
+
+
+Started GET "/orders" for 127.0.0.1 at 2014-03-03 23:30:54 +0800
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered orders/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 29ms (Views: 23.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:30:54 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:30:54 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:30:54 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:30:54 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:30:54 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:30:55 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE (yuyue_at=1)[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mUserInfo Load (0.0ms)[0m  [1mSELECT "user_infos".* FROM "user_infos" WHERE "user_infos"."user_id" = ? ORDER BY "user_infos"."id" ASC LIMIT 1[0m  [["user_id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:30:55 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:30:55 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:30:55 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:30:55 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:30:55 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:31:10 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at=1)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUserInfo Load (1.0ms)[0m  SELECT "user_infos".* FROM "user_infos" WHERE "user_infos"."user_id" = ? ORDER BY "user_infos"."id" ASC LIMIT 1  [["user_id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:31:10 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:10 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:10 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:10 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:10 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:31:26 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE (yuyue_at=1)[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mUserInfo Load (0.0ms)[0m  [1mSELECT "user_infos".* FROM "user_infos" WHERE "user_infos"."user_id" = ? ORDER BY "user_infos"."id" ASC LIMIT 1[0m  [["user_id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:31:26 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:26 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:26 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:26 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:26 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:31:28 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at=1)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUserInfo Load (0.0ms)[0m  SELECT "user_infos".* FROM "user_infos" WHERE "user_infos"."user_id" = ? ORDER BY "user_infos"."id" ASC LIMIT 1  [["user_id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:31:29 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:29 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:29 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:29 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:29 +0800
+
+
+Started GET "/orders" for 127.0.0.1 at 2014-03-03 23:31:29 +0800
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered orders/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:31:29 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:29 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:29 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:29 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:29 +0800
+
+
+Started GET "/users" for 127.0.0.1 at 2014-03-03 23:31:30 +0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:31:30 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:30 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:30 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:30 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:30 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-03 23:31:33 +0800
+Processing by OrdersController#yuyue as HTML
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE (yuyue_at=1)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mUserInfo Load (1.0ms)[0m  SELECT "user_infos".* FROM "user_infos" WHERE "user_infos"."user_id" = ? ORDER BY "user_infos"."id" ASC LIMIT 1  [["user_id", 5]]
+  Rendered orders/yuyue.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-03 23:31:33 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:33 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:33 +0800
+
+
+Started GET "/assets/user_tip.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:33 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-03 23:31:33 +0800

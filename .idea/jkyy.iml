@@ -214,6 +214,7 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.0.1, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.7.0, ruby-2.0.0-p353) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="delayed_job (v4.0.0, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.0.2, ruby-2.0.0-p353) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, ruby-2.0.0-p353) [gem]" level="application" />

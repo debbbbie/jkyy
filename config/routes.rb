@@ -4,11 +4,12 @@ Jkyy::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
-root 'users#index'
+root 'orders#yuyue'
   resources :users
   resources :orders
 
   get 'users/userinfo/:id' => 'users#userinfo'
+  get 'orders/yuyue' => 'orders#yuyue'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -3,6 +3,20 @@ class Order < ActiveRecord::Base
   STATUS_SUCCESS = 1
   STATUS_CANCEL = 2
 
+  <<html
+normal
+init
+login
+list
+
+ yuyue
+ wait_next_yuyue
+ wait_valid_code
+ check_valid_code
+
+success
+html
+
   TYPE_C1_1 = 1
   TYPE_C1_2 = 2
   TYPE_C1_3 = 3
